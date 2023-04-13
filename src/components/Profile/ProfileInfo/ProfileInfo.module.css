@@ -1,0 +1,90 @@
+.profileInfo{
+
+}
+.mainPicture img{
+	object-fit: cover;
+	width: 100%;
+	max-height: 200px;
+}
+.mainInfo {
+	display:flex;
+
+}
+.profileImageContainer{
+	flex: 0 1 200px;
+}
+.profileImage{
+	padding: 5px 0px;
+	max-width: 100%;
+	object-fit: cover;
+	max-height: 100%;
+
+}
+.profileDescription{
+	flex: 1 1 auto;
+}
+
+.fullName{
+	display: flex;
+	color: mistyrose;
+	font-size: 50px;
+}
+.aboutMe{
+	display: flex;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.lookingForAJob{
+	display: flex;
+	color: white;
+	font-size: 30px;
+}
+.lookingForAJobDescription{
+	display: flex;
+	padding: 10px;
+	font-size: 20px;
+}
+.contacts{
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+}
+.contact{
+	font-size: 18px;
+	justify-content: end;
+	display: flex;
+	gap: 30px;
+	padding-right: 150px;
+}
+
+.editBtnContainer{
+	text-align: center;
+	padding: 10px;
+}
+.editBtnContainer button{
+	height: 25px;
+	width: 50%;
+	border-radius: 20px;
+}
+
+.saveBtnContainer{
+	min-width: 50vw;
+	text-align: center;
+}
+
+.saveBtnContainer button {
+	
+	height: 25px;
+	width:  50%;
+	border-radius: 20px;
+}
+
+.formError{
+	display: inline-block;
+		border: 1px solid red;
+		color: red;
+		border-radius: 10px;
+		padding: 5px;
+}
